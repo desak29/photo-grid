@@ -1,13 +1,14 @@
 body {
 	background-color: grey;
-	font-family: comic, serif;
+	font-family: serif;
 }
 
 h1 {
-	color: black;
+	color: white;
 	font-size: 50px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 77px;
+	font-family:sans-serif
 }
 
 .image {
@@ -23,11 +24,12 @@ overflow:hidden;
 
 
 .portrait img {
-	width: 86%;
+	width: 100%;
+	height:317px
 }
 
 .caption{
-	text-align: center;
+	text-align: auto;
 	background-color: blue;
 	color:white;
 	margin-top:-20px;
