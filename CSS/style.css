@@ -7,14 +7,15 @@ h1 {
 	color: white;
 	font-size: 50px;
 	text-align: center;
-	margin-bottom: 77px;
+	margin-bottom: 50px;
 	font-family:sans-serif
 }
 
 .image {
 	float: left;
 	width: 32.33%;
-	padding: .5%;
+
+	padding: .05%;
 	
 overflow:hidden;
 		display:block;
@@ -24,25 +25,37 @@ overflow:hidden;
 
 
 .portrait img {
-	width: 100%;
-	height:317px
+	width: 90%;
+	padding:.1%;
+
+	
+;
+
+	
+	position:relative;
+
+
 }
 
 .caption{
-	text-align: auto;
+	text-align: center;
 	background-color: blue;
 	color:white;
-	margin-top:-20px;
+	margin-top:-15px;
 	position: relative;
+	font-size: 10px;
+	position:absolute;
+
+/* 	left: 3px allows you to shift image or caption left or right fixed*/
 }
 
 .landscape img {
 	width: 100%;
 }
 .extra-stuff{
-	font-size: 20px;
+	font-size: 15px;
 	float: left;
-	width: 32.3333%;
+	width: 96.8%;
 	text-align: center;
 	background-color: blue;
 	color: white;
