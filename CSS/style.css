@@ -12,8 +12,8 @@ h1 {
 
 .image {
 	float: left;
-	width: 25%;
-	padding: 2px;
+	width: 32.33%;
+	padding: .5%;
 	
 overflow:hidden;
 		display:block;
@@ -23,18 +23,31 @@ overflow:hidden;
 
 
 .portrait img {
-	width: 77%;
+	width: 86%;
 }
 
-.caption {
-	text-align: left;
-	color: yellowgreen;
-	margin-top: -35px;
+.caption{
+	text-align: center;
+	background-color: blue;
+	color:white;
+	margin-top:-20px;
 	position: relative;
 }
 
 .landscape img {
-	width: 175%;
+	width: 100%;
 }
+.extra-stuff{
+	font-size: 20px;
+	float: left;
+	width: 32.3333%;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	padding:10% 0;
+	margin-top:.5%;
+	margin-left:.5%;
+}
+
 
 
